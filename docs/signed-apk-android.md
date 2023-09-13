@@ -147,7 +147,7 @@ You can terminate any running bundler instances, since all your framework and Ja
 
 ## Publishing to other stores
 
-By default, the generated APK has the native code for both `x86`, `x86_64`, `ARMv7a` and `ARM64-v8a` CPU architectures. This makes it easier to share APKs that run on almost all Android devices. However, this has the downside that there will be some unused native code on any device, leading to unnecessarily bigger APKs.
+By default, the generated AAB has the native code for both `x86`, `x86_64`, `ARMv7a` and `ARM64-v8a` CPU architectures. This makes it easier to share APKs that run on almost all Android devices. However, this has the downside that there will be some unused native code on any device, leading to unnecessarily bigger APKs.
 
 You can create an APK for each CPU by adding the following line in your `android/app/build.gradle` file:
 
